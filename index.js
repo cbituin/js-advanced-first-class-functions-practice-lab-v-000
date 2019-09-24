@@ -2,3 +2,7 @@
 const logDriverNames = (arr) => {
   arr.forEach(driver => console.log(driver.name));
 };
+
+const logDriversByHometown = () => {
+  
+};
