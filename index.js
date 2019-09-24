@@ -24,5 +24,5 @@ const driversByName = (arr) => {
 const totalRevenue = (arr) => {
   let reducer = (accumulator, currentValue) => accumulator + currentValue;
   
-  return arr.reducer().forEach(driver => driver.revenue);
+  return arr.forEach(driver => driver.revenue).reducer(reducer);
 };
