@@ -10,3 +10,7 @@ const logDriversByHometown = (arr, location) => {
     }
   });
 };
+
+const driversByRevenue = (arr) => {
+  
+}
