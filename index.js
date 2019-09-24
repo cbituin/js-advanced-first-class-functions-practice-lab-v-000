@@ -18,5 +18,5 @@ const driversByRevenue = (arr) => {
 };
 
 const driversByName = (arr) => {
-  
+  return arr.slice().sort((a, b) => (a.color > b.color) ? 1 : -1);
 };
