@@ -20,3 +20,7 @@ const driversByRevenue = (arr) => {
 const driversByName = (arr) => {
   return arr.slice().sort((a, b) => (a.name > b.name) ? 1 : -1);
 };
+
+const totalRevenue = () => {
+  
+};
