@@ -4,7 +4,9 @@ const logDriverNames = (arr) => {
 };
 
 const logDriversByHometown = (arr, location) => {
-  arr.forEach(
-    
-    )
+  arr.forEach(function(driver){
+    if (driver.location === location) {
+      console.log(driver);
+    }
+  });
 };
