@@ -21,6 +21,12 @@ const driversByName = (arr) => {
   return arr.slice().sort((a, b) => (a.name > b.name) ? 1 : -1);
 };
 
-const totalRevenue = (arr) => {
-  return arr.reduce().forEach(driver => driver.revenue);
+const totalRevenue = function (drivers) {
+  return drivers.reduce(function (total, currentDriver) {
+    return currentDriver.revenue + total;
+  }, 0);
+};
+
+const averageRevenue = function (drivers) {
+  return totalRevenue(drivers) / drivers.length;
 };
