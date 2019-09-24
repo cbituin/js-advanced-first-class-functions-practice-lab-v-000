@@ -22,5 +22,5 @@ const driversByName = (arr) => {
 };
 
 const totalRevenue = () => {
-  
+  return arr.
 };
